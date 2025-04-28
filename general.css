@@ -50,7 +50,7 @@ p{
 }
 @media(max-width: 750px) {
   .all{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
 @media(min-width: 751px) and (max-width: 1100) {
