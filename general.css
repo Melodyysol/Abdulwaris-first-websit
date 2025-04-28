@@ -43,14 +43,14 @@ p{
 }
 .all{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
   margin-left: 96px;
 }
 @media(max-width: 750px) {
   .all{
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media(min-width: 751px) and (max-width: 1100) {
